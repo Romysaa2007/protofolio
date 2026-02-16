@@ -1,7 +1,7 @@
-import { GoogleGenAI } from "@google/genai";
+
 import { HERO_DATA, SKILLS_DATA, PROJECTS_DATA, ABOUT_DATA } from '../constants';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+
 
 // Construct a system context based on the portfolio data
 const SYSTEM_INSTRUCTION = `
